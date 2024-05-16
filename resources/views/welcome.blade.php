@@ -61,7 +61,7 @@
                        Log in
                     </a>
                     </li>
-                    @if (Route::has('register'))
+                    {{-- @if (Route::has('register'))
                         <li>
                             <a
                             href="{{ route('register') }}"
@@ -70,11 +70,11 @@
                             Register
                         </a>
                         </li>
-                    @endif
                   </ul>
+                  @endif --}}
                   <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-                  @endauth
             </nav>
+            @endauth
             @endif
         </div>
     </header>
