@@ -18,7 +18,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <a class="nav-link" href="{{ route('penjualan') }}" >
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Penjualan
@@ -26,7 +26,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <a class="nav-link" href="{{ route('laporan') }}" >
               <i class="nav-icon nav-icon fas fa-book"></i>
               <p>
                 Laporan
